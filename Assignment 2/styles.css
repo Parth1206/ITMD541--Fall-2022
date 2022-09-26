@@ -25,11 +25,11 @@ list-style: none;
 }
 
 #flex-section2 .item1 {
-
+	
 }
 
 #flex-section2 .item2 {
-
+	order: 3;
 }
 
 #flex-section2 .item3 {
