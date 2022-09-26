@@ -44,13 +44,16 @@ list-style: none;
 #flex-section3 .box {
 	display: flex;
 	justify-content: center;
+	padding: 130px;
 }
 
 #flex-section3 .tags ul {
 	display: flex;
 	list-style: none;
 	flex-wrap: wrap;
-
+	margin: 0px;
+	padding: 5px;
+	
 }
 
 /* end Flexbox Part 3 */
