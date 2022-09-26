@@ -51,9 +51,9 @@ list-style: none;
 	display: flex;
 	list-style: none;
 	flex-wrap: wrap;
-	margin: 0px;
+	margin: 1px;
 	padding: 5px;
-	
+
 }
 
 /* end Flexbox Part 3 */
