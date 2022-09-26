@@ -15,13 +15,13 @@ justify-content: space-evenly;
 
 #flex-section2 ul {
 display: flex;
-margin: 1px;
-padding: 1px;
+margin: 0px;
+padding: 0px;
 list-style: none;
 }
 
 #flex-section2 li {
-
+	flex: 1 0 0;
 }
 
 #flex-section2 .item1 {
