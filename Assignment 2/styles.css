@@ -15,8 +15,8 @@ justify-content: space-evenly;
 
 #flex-section2 ul {
 display: flex;
-margin: 0px;
-padding: 0px;
+margin: 1px;
+padding: 1px;
 list-style: none;
 }
 
