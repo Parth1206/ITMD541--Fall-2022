@@ -2,8 +2,8 @@
 
 #flex-section1 ul {
 display: flex;
-padding: 3px;
-margin: 6px;
+padding: 0px;
+margin: 0px;
 list-style: none;
 justify-content: space-evenly;
 }
@@ -14,7 +14,10 @@ justify-content: space-evenly;
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+display: flex;
+margin: 0px;
+padding: 0px;
+list-style: none;
 }
 
 #flex-section2 li {
