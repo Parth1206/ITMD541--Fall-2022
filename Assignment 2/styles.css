@@ -17,7 +17,7 @@ justify-content: space-evenly;
 display: flex;
 margin: 0px;
 padding: 0px;
-list-style: none;
+
 }
 
 #flex-section2 li {
@@ -25,16 +25,16 @@ list-style: none;
 }
 
 #flex-section2 .item1 {
-	
+	list-style: none;
 }
 
 #flex-section2 .item2 {
 	order: 3;
-	
+	list-style: none;
 }
 
 #flex-section2 .item3 {
-
+	list-style: none;
 }
 
 /* end Flexbox Part 2 */
@@ -135,8 +135,6 @@ list-style: none;
 	color: #000;
 	padding: 20px;
 	text-decoration: none;
-
-
 }
 
 #transition-section .box a:hover {
@@ -144,7 +142,6 @@ list-style: none;
 	color: #fff;
 	transition-delay: 0.5s;
 	transition-duration: 3s;
-
 }
 
 /* end Transition Part */
