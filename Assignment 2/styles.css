@@ -34,7 +34,7 @@ list-style: none;
 }
 
 #flex-section2 .item3 {
-	
+
 }
 
 /* end Flexbox Part 2 */
@@ -63,7 +63,12 @@ list-style: none;
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: 100px;
+	justify-content: space-evenly;
+	column-gap: 20px;
+	row-gap: 20px;
 }
 
 /* end Grid Part 1 */
