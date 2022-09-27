@@ -25,16 +25,16 @@ list-style: none;
 }
 
 #flex-section2 .item1 {
-	font-weight: bold;
+	
 }
 
 #flex-section2 .item2 {
 	order: 3;
-	font-weight: bold;
+	
 }
 
 #flex-section2 .item3 {
-	font-weight: bold;
+	
 }
 
 /* end Flexbox Part 2 */
