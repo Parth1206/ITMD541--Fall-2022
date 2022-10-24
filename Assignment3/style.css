@@ -1,0 +1,28 @@
+#titleWrap{
+    text-align: center;
+}
+
+#contentWrap{
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-auto-columns: 350px;
+    grid-column: 2/4;
+    justify-content: space-evenly;
+   
+}
+
+form{
+    padding: 10px;
+    border-style: solid;
+    
+}
+
+#inputWrap{
+    padding: 5px;
+}
+
+body{
+    background: bisque;
+}
