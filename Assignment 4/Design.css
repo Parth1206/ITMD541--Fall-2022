@@ -58,5 +58,7 @@ label {
 
 #Results{
     visibility: hidden;
+    display: grid;
+    align-content: center;
 }
 
