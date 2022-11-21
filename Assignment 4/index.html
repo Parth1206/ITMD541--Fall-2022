@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+    h1 {text-align: center;}
+    p {text-align: center;}
+    div {text-align: center;}
+</style>
+
+<title>Weather app</title>
+<link rel="stylesheet" href="Design.css">
+<script src="weatherData.js"></script>
+</head>
+
+<body>
+<div id = "headerWrapper"> 
+ITMD 541 - Lab 4 - Parth Ghatpande
+<h1>Weather App</h1>
+</div>
+    <div id="formIndent">
+        <input type="text" id="locationName" required placeholder="Enter the Location"><br>
+        <div id="buttonAlignemnt">
+        <button id = "enterButton" onclick="init()" > Enter </button>
+        <button id = "geoButton" onclick="geoLocationHandler()"> Get Location </button>
+        </div>
+</div>
+<p id="saved"></p>
+</div>
+</div>
+
+<div id="displayWeather">
+    <h1 id = "region"> </h1><br>
+    <div id = "currentConditionsDisplay"> 
+        <h2 id = "currentConditions"> </h2>
+        <div id = "dayHour"> </div>
+        <div id = "temp">  </div>
+        <div id = "percip">  </div>
+        <div id = "humidity">  </div>
+        <div id = "wind">  </div>
+        <div id = "description">  </div>     
+        <img src="" id = "imageIcon">
+    </div>
+    <div>
+        <h1 id ="forecastDisplay" > </h2>
+            <div id="wrapForecast"> 
+                <div id = "daysAhead1"> </div>
+                <div id = "comments1"> </div>
+                <div id = "max_temp1"> </div>
+                <div id = "min_temp1"> </div>
+                <img src="" id = "forecastIcon1">
+            </div><br>
+            <div id="wrapForecast"> 
+                <div id = "daysAhead2"> </div>
+                <div id = "comments2"> </div>
+                <div id = "max_temp2"> </div>
+                <div id = "min_temp2"> </div>
+                <img src="" id = "forecastIcon2">
+            </div><br>
+            <div id="wrapForecast"> 
+                <div id = "daysAhead3"> </div>
+                <div id = "comments3"> </div>
+                <div id = "max_temp3"> </div>
+                <div id = "min_temp3"> </div>
+                <img src="" id = "forecastIcon3">
+            </div><br>
+            <div id="wrapForecast"> 
+                <div id = "daysAhead4"> </div>
+                <div id = "comments4"> </div>
+                <div id = "max_temp4"> </div>
+                <div id = "min_temp4"> </div>
+                <img src="" id = "forecastIcon4">
+            </div><br>
+            <div id="wrapForecast"> 
+                <div id = "daysAhead5"> </div>
+                <div id = "comments5"> </div>
+                <div id = "max_temp5"> </div>
+                <div id = "min_temp5"> </div>
+                <img src="" id = "forecastIcon5">
+            </div><br>
+            <div id="wrapForecast"> 
+                <div id = "daysAhead6"> </div>
+                <div id = "comments6"> </div>
+                <div id = "max_temp6"> </div>
+                <div id = "min_temp6"> </div>
+                <img src="" id = "forecastIcon6">
+            </div><br>
+            <div id="wrapForecast"> 
+                <div id = "daysAhead7"> </div>
+                <div id = "comments7"> </div>
+                <div id = "max_temp7"> </div>
+                <div id = "min_temp7"> </div>
+                <img src="" id = "forecastIcon7">
+            </div><br>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>

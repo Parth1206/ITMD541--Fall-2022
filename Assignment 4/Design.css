@@ -1,0 +1,19 @@
+body{
+    background-color: bisque;
+}
+
+ #displayWeather{
+    text-align: center;
+ }
+
+#headerWrapper{
+    text-align: center;
+}
+#buttonAlignemnt{
+    align-items: center;
+}
+#formIndent{
+    text-align: center;
+    padding: 20px;
+    border: solid;
+}
