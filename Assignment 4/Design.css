@@ -1,8 +1,8 @@
 body{
-    background-image: url(bg3.jpg);
-    background-size: 1550px 2100px;
-
-}
+    /* background-image: url(bg3.jpg);
+    background-size: auto;*/
+    background-color: darkcyan;
+} 
 
 label {
     display: block;
