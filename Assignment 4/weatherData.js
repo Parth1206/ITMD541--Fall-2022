@@ -25,7 +25,10 @@ function init(){
        // console.log("Temprature " + temp[0]);
 
         let wind = Object.values(dataArray[4]);
-       // console.log("Temprature " + wind[0]);
+       // console.log("Temprature " + wind[0]);ß
+
+       let boxDisplay = document.getElementById("Results");
+       boxDisplay.style.visibility = "visible"; 
 
         document.getElementById("region").innerHTML  = "Weather for " + dataRegion;
         document.getElementById("dayHour").innerHTML = dataArray[0];
@@ -163,6 +166,9 @@ function geoLocationHandler(){
 
         let wind = Object.values(dataArray[4]);
        // console.log("Temprature " + wind[0]);
+
+       let boxDisplay = document.getElementById("Results");
+       boxDisplay.style.visibility = "visible"; 
 
         document.getElementById("region").innerHTML  = "Weather for " + dataRegion;
         document.getElementById("dayHour").innerHTML = dataArray[0];
