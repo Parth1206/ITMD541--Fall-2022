@@ -6,6 +6,8 @@
     h1 {text-align: center;}
     p {text-align: center;}
     div {text-align: center;}
+
+
 </style>
 
 <title>Weather app</title>
@@ -16,10 +18,14 @@
 <body>
 <div id = "headerWrapper"> 
 ITMD 541 - Lab 4 - Parth Ghatpande
-<h1>Weather App</h1>
+<br>
+<br>
 </div>
+<br>
     <div id="formIndent">
-        <input type="text" id="locationName" required placeholder="Enter the Location"><br>
+        <h1>Weather App</h1>
+        <br>
+        <input type="text" id="locationName" required placeholder="Enter the Location"> <br>
         <div id="buttonAlignemnt">
         <button id = "enterButton" onclick="init()" > Enter </button>
         <button id = "geoButton" onclick="geoLocationHandler()"> Get Location </button>
@@ -29,6 +35,7 @@ ITMD 541 - Lab 4 - Parth Ghatpande
 </div>
 </div>
 
+<div id="Results"  > 
 <div id="displayWeather">
     <h1 id = "region"> </h1><br>
     <div id = "currentConditionsDisplay"> 
@@ -93,6 +100,7 @@ ITMD 541 - Lab 4 - Parth Ghatpande
                 <img src="" id = "forecastIcon7">
             </div><br>
     </div>
+</div>
 </div>
 
 
